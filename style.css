@@ -165,12 +165,12 @@ html, body {
   transform: translateY(-50%);
 }
 
-.download {
+.li {
   display: inline-block;
   margin: 10px;
 }
 
-.li {
+.download {
   width: 200px;
   height: 75px;
   background: black;
