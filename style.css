@@ -75,13 +75,17 @@ nav {
 }
 
 .lang-menuu ul {
-    margin: 0px;
-    Padding: 0px;
 
+margin: 0;
+    padding: 0;
+    background-color: #fff;
     border: 1px solid #f8f8f8;
+    position: absolute;
+    top: 45px;
+    right: 0px;
+    width: 125px;
     border-radius: 5px;
     box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
-
 
 
 }
