@@ -64,7 +64,7 @@ nav {
     line-height: 2;
     cursor: pointer;
 }
-.lang-menuut .selected-lang:before {
+.lang-menuu .selected-lang:before {
     content: '';
     display: inline-block;
     width: 30px;
@@ -72,7 +72,7 @@ nav {
     background-image: url(https://lh3.googleusercontent.com/proxy/RbUIDCaJLdK8FSH2iCTnuLCHoeg0fENFK-0odGQTcReqst-LQQ4djTQ1Q_xbUbPyqQsQty_sWcaZB-mfMwcBT8DSu-U);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 100px;
   text-align: center;
   margin: 0;
   padding: 0;
@@ -153,21 +153,6 @@ margin: 0;
 
 html, body {
   overflow: hidden;
-}
-
-.ul {
-  width: 100%;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.li {
-  display: inline-block;
-  margin: 10px;
 }
 
 .download {
