@@ -39,6 +39,18 @@ nav {
     
 }
 
+.lang-menuu {
+    width: 100px;
+    text-align: right;
+    font-weight: bold;
+    margin-top: 25px;
+    position: relative;
+}
+
+
+
+
+
 .lang-menu {
     width: 100px;
     text-align: right;
