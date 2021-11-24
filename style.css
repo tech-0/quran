@@ -64,11 +64,11 @@ nav {
     line-height: 2;
     cursor: pointer;
 }
-.lang-menuuy .selected-lang:before {
+.lang-menuu .selected-lang:before {
     content: '';
     display: inline-block;
-    width: 32px;
-    height: 32px;
+    width: 30px;
+    height: 10px;
     background-image: url(https://lh3.googleusercontent.com/proxy/RbUIDCaJLdK8FSH2iCTnuLCHoeg0fENFK-0odGQTcReqst-LQQ4djTQ1Q_xbUbPyqQsQty_sWcaZB-mfMwcBT8DSu-U);
     background-size: contain;
     background-repeat: no-repeat;
