@@ -74,7 +74,7 @@ nav {
     background-repeat: no-repeat;
 }
 
-.lang-menu ul {
+.lang-menuu ul {
     margin: 0;
     padding: 0;
     display: none;
@@ -83,7 +83,7 @@ nav {
     position: absolute;
     top: 45px;
     right: 0px;
-    width: 125px;
+    width: 100%;
     border-radius: 5px;
     box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
 }
