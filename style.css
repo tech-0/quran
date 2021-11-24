@@ -51,7 +51,7 @@ nav {
 
 
 
-.lang-menu {
+.lang-menuu {
     width: 100px;
     text-align: right;
     font-weight: bold;
@@ -75,7 +75,8 @@ nav {
 }
 
 .lang-menuu ul {
-
+    margin: 0px;
+    Padding: 0px;
     display: none;
     background-color: #fff;
     border: 1px solid #f8f8f8;
