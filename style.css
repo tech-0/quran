@@ -48,17 +48,6 @@ nav {
     Font-size: 2px;
 }
 
-
-
-
-
-.lang-menuu {
-    width: 100px;
-    text-align: right;
-    font-weight: bold;
-    margin-top: 2px;
-    position: relative;
-}
 .lang-menuu .selected-lang {
     display: flex;   
     justify-content: space-between;
