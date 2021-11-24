@@ -142,6 +142,9 @@ html, body {
 }
 
 .download {
+
+    margin-top: 80px;
+
   width: 200px;
   height: 75px;
   background: black;
@@ -151,6 +154,7 @@ html, body {
   color: #fff;
   cursor: pointer;
   border: 1px solid #fff;
+  float: center;
 }
 
 .download > .fa {
