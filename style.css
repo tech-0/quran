@@ -74,7 +74,7 @@ nav {
     background-repeat: no-repeat;
 }
 
-.lang-menu ul {
+.lang-menuu ul {
     margin: 0;
     padding: 0;
     display: none;
@@ -89,25 +89,25 @@ nav {
 }
 
 
-.lang-menu ul li {
+.lang-menuu ul li {
     list-style: none;
     text-align: left;
     display: flex;
     justify-content: space-between;
 }
 
-.lang-menu ul li a {
+.lang-menuu ul li a {
     text-decoration: none;
     width: 125px;
     padding: 5px 10px;
     display: block;
 }
 
-.lang-menu ul li:hover {
+.lang-menuu ul li:hover {
     background-color: #f2f2f2;
 }
 
-.lang-menu ul li a:before {
+.lang-menuu ul li a:before {
     content: '';
     display: inline-block;
     width: 25px;
