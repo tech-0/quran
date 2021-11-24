@@ -58,13 +58,13 @@ nav {
     margin-top: 25px;
     position: relative;
 }
-.lang-menuu .selected-lang {
+.lang-menu .selected-lang {
     display: flex;   
     justify-content: space-between;
     line-height: 2;
     cursor: pointer;
 }
-.lang-menu .selected-lang:before {
+.lang-menuu .selected-lang:before {
     content: '';
     display: inline-block;
     width: 32px;
