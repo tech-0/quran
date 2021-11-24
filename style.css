@@ -96,7 +96,7 @@ nav {
     justify-content: space-between;
 }
 
-.lang-menuu ul li a {
+.lang-menu ul li a {
     text-decoration: none;
     width: 125px;
     padding: 5px 10px;
@@ -107,7 +107,7 @@ nav {
     background-color: #f2f2f2;
 }
 
-.lang-menu ul li a:before {
+.lang-menuu ul li a:before {
     content: '';
     display: inline-block;
     width: 25px;
