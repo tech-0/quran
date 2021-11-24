@@ -148,7 +148,7 @@ html, body {
   overflow: hidden;
 }
 
-ul {
+.download {
   width: 100%;
   text-align: center;
   margin: 0;
@@ -158,7 +158,7 @@ ul {
   transform: translateY(-50%);
 }
 
-li {
+.download {
   display: inline-block;
   margin: 10px;
 }
