@@ -58,7 +58,7 @@ nav {
     margin-top: 25px;
     position: relative;
 }
-.lang-menu .selected-lang {
+.lang-menuu .selected-lang {
     display: flex;   
     justify-content: space-between;
     line-height: 2;
