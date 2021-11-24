@@ -107,7 +107,7 @@ nav {
     background-color: #f2f2f2;
 }
 
-.lang-menuu ul li a:before {
+.lang-menu ul li a:before {
     content: '';
     display: inline-block;
     width: 25px;
