@@ -1,0 +1,172 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css');
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+
+
+@font-face {
+  font-family: 'K24KurdishBold-Bold';
+  src: url('K24KurdishBold-Bold.woff' ) format('woff2');
+}
+
+
+body {
+    font-family: 'Didact Gothic', sans-serif;
+    color:#333;
+        box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+   
+    background-color: #f2f2f2;
+    height: 110px;
+    padding: 10px 0;
+    
+}
+
+nav {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 100px;
+}
+
+.logo img {
+    width: 100px;
+    
+}
+
+.lang-menuu {
+    width: 10px;
+    text-align: right;
+    font-weight: bold;
+    margin-top: 10px;
+    position: relative;
+    Font-size: 2px;
+}
+
+.lang-menuu .selected-lang {
+    display: flex;   
+    justify-content: space-between;
+    line-height: 2;
+    cursor: pointer;
+}
+.lang-menuu .selected-lang:before {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100px;
+  text-align: center;
+   
+}
+
+.lang-menuu ul {
+
+margin: 0;
+    padding: 0;
+    background-color: #fff;
+    border: 1px solid #f8f8f8;
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    width: 100px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    font-size: 10px;
+
+}
+
+
+.lang-menuu ul li {
+    list-style: none;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lang-menuu ul li a {
+    text-decoration: none;
+    width: 125px;
+    padding: 5px 10px;
+    display: block;
+}
+
+.lang-menuu ul li:hover {
+    background-color: #f2f2f2;
+}
+
+.lang-menuu ul li a:before {
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.ku:before {
+    background-image: url(ku.png);
+}
+.ar:before {
+    background-image: url(ar.png);
+}
+.ir:before {background-image: url(ir.png);
+
+}
+.en:before {
+    background-image: url(en.png);
+}
+
+.lang-menu:hover ul {
+    display: block;
+}
+
+* {
+  font-family: 'Open Sans', 'sans-serif';
+}
+
+p{
+    font-family: 'K24KurdishBold-Bold';
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+	margin-right: 10px;
+	margin-left: 10px;
+    position: relative;
+    Font-size: 20px;
+}
+
+html, body {
+  overflow: hidden;
+}
+.dow{
+	margin-top: 110px;
+}
+.download > .fa {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+}
+
+.download:hover {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
