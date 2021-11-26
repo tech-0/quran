@@ -152,7 +152,9 @@ p{
 
 .dow{
 	margin-top: 80px;
+	
 }
+
 
 .template-footer {
   margin-top: 20px;
@@ -170,10 +172,15 @@ p{
 footer a {
 	
   color: #fff;
-  font-size: 7px;
+  font-size: 10px;
   transition-duration: 0.2s;
 }
 		  
 .social {
 margin-bottom:20px;
+}
+.fot{
+	font-size: 13px;
+	font-family: 'K24KurdishBold-Bold';
+	
 }
