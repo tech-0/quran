@@ -12,7 +12,7 @@ body {
     font-family: 'K24KurdishBold-Bold';
     color:#333;
     box-sizing: border-box;
-
+    
 
 }
 
@@ -51,27 +51,11 @@ nav {
     Font-size: 2px;
 }
 
-.lang-menuu .selected-lang {
-    display: flex;   
-    justify-content: space-between;
-    line-height: 2;
-    cursor: pointer;
-}
-.lang-menuu .selected-lang:before {
-    content: '';
-    display: inline-block;
-    width: 30px;
-    height: 10px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 100px;
-  text-align: center;
-   
-}
+
 
 .lang-menuu ul {
 
-margin: 0;
+    margin-top: 23px;
     padding: 0;
     background-color: #fff;
     border: 1px solid #f8f8f8;
@@ -102,10 +86,7 @@ margin: 0;
 	
 }
 
-.lang-menuu ul li:hover {
-    background-color: #f2f2f2;
-	
-}
+
 
 .lang-menuu ul li a:before {
     content: '';
@@ -145,7 +126,7 @@ p{
     margin-top: 20px;
 	margin-right: 10px;
 	margin-left: 10px;
-    position: relative;
+    
     Font-size: 20px;
 }
 
@@ -157,17 +138,14 @@ p{
 
 
 .template-footer {
-  margin-top: 20px;
+  margin-top: 80px;
   padding: 1rem;
   color: #FFF;
   text-align: center;
   background-color: #842B37;
   border-top: .05rem solid #e5e5e5;
 }
-.template-footer p:last-child {
-  margin-bottom: 0;
-	
-}
+
 		  
 footer a {
 	
