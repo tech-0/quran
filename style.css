@@ -151,24 +151,10 @@ p{
 
 
 .dow{
-	margin-top: 100px;
-}
-.download > .fa {
-  color: #fff;
-  position: absolute;
-  top: 50%;
-  left: 15px;
-  transform: translateY(-50%);
+	margin-top: 80px;
 }
 
-.download:hover {
-  -webkit-filter: invert(100%);
-  filter: invert(100%);
-}
-
-
-
-	.template-footer {
+.template-footer {
   margin-top: 20px;
   padding: 1rem;
   color: #FFF;
